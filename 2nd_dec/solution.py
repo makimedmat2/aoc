@@ -11,6 +11,8 @@ if re.search(r'\s{2,}', input_data):
 
 input_array = input_data.split('\n') #list of reports, each report is a string (for now)
 
+## PART ONE
+
 numOfSafeReports = 0
 
 for report in input_array:
@@ -30,6 +32,11 @@ for report in input_array:
                 numOfSafeReports+=1
 
 print(numOfSafeReports)
+
+######################################################
+## PART TWO
+
+
 
 
 
